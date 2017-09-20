@@ -1,26 +1,56 @@
+@font-face{
+    font-family: font;
+    src: url(font/indieflower.ttf);
+}
+
+* {
+    font-family: font, sans-serif;
+}
+
+
 /* BODY */
-
 body{
-
 }
 
 
 /* HEADER */
-
 header{
-
 }
 
 
 /* SECTION */
-
 section{
-
+}
+section h1{
+    color: white;
+    padding-bottom: 500px;
+    text-shadow:3px 3px 3px #000000;
+    font-family: font, sans-serif;
+}
+section p{
+    color: white;
+    padding-bottom: 100px;
+    margin-right: 200px;
+    font-family: font, sans-serif;
+}
+#button{
+    margin-bottom: 150px;
+    margin-left: 200px;
+}
+section img{
+    width: 100%;
+}
+#main{
+    height: 500px;  
+}
+section h2{
+    color: #000000;
+    margin-top: 50px;
+    text-shadow: 3px 3px 10px #444;
 }
 
 
 /* FOOTER */
-
 footer{
 
 }

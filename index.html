@@ -2,25 +2,37 @@
 
 <html>
     <head>
-        <link rel="stylesheet" href ="index.css"/>
         <link rel="stylesheet" href ="lib/w3.css"/>
+        <link rel="stylesheet" href ="index.css"/>
         <meta charset="UTF-8"/>
     </head>
 
 
     <Body>
-        <header>
-
+        <header class="w3-top w3-bar w3-container w3-black">
+            <a href="#Home" class="w3-bar-item w3-button w3-mobile w3-hover-teal">Accueil</a>
+            <a href="#main" class="w3-bar-item w3-button w3-mobile w3-hover-teal">Main</a>
+            <a href="#footer" class="w3-bar-item w3-button w3-mobile w3-hover-teal">Footer</a>
+            <a href="http://distefano-guillaume.890m.com/" class="w3-bar-item w3-button w3-mobile w3-hover-red">Mon CV   </a>
         </header>
 
+<!-- page de garde -->
+        <section id="Home" class="w3-display-container">
+                <img src="images/background.jpg" alt="Background">
+                <h1 class="w3-display-middle">TITRE DU SITE</h1>
+                <button id="button" class="w3-button w3-btn w3-round-xlarge w3-display-left w3-large w3-xlarge w3-hover-red w3-black w3-ripple" style="width:15%">Hurry up !</button>
+                <button class="w3-display-bottomright w3-button w3-circle w3-white">+</button>
+                <p class="w3-display-right w3-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br> Cras vitae tellus mattis, elementum lacus non, condimentum metus.<br> Nulla vestibulum libero arcu.</p>
+        </section>
 
-        <section>
-
+ <!-- Corp du site -->
+        <section id="main" class="w3-display-container">
+                <h2 class="w3-center">TITRE DU SITE</h2>
         </section>
 
         
-        <footer>
-
+        <footer id="footer" class="w3-container w3-black">
+                <h1>footer</h1>
         </footer>
     </Body>
 </html>
