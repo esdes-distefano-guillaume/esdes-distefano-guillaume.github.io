@@ -3,7 +3,7 @@
     src: url(font/indieflower.ttf);
 }
 
-* {
+h1 {
     font-family: font, sans-serif;
 }
 
@@ -23,19 +23,19 @@ section{
 }
 section h1{
     color: white;
-    padding-bottom: 500px;
+    padding-bottom: 450px;
+    margin-left: 300px;
     text-shadow:3px 3px 3px #000000;
     font-family: font, sans-serif;
 }
 section p{
     color: white;
-    padding-bottom: 100px;
-    margin-right: 200px;
-    font-family: font, sans-serif;
+    margin-top: 25px;
+    margin-left: 150px;
 }
 #button{
-    margin-bottom: 150px;
-    margin-left: 200px;
+    margin-top: 150px;
+    margin-left: 300px;
 }
 section img{
     width: 100%;
@@ -48,8 +48,6 @@ section h2{
     margin-top: 50px;
     text-shadow: 3px 3px 10px #444;
 }
-
-
 /* FOOTER */
 footer{
 
