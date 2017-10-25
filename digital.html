@@ -1,0 +1,43 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>DI STEFANO Guillaume | SCRET</title>
+        <meta name="description" content="Scret, un reseau social visant à proposer un lieu d'échange d'astuces et de conseils. Construit également ton projet..." />
+        <link rel="stylesheet" href ="w3/w3.css"/>
+        <link rel="stylesheet" href ="index.css"/>
+        <meta charset="UTF-8"/>
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-108250518-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-108250518-1');
+</script>
+    </head>
+    <body>
+        <aside class="w3-sidebar w3-bar-block" style="display:none" id="mySidebar">
+        <button onclick="w3_close()" class="w3-bar-item w3-large w3-black w3-animate-zoom">✖</button>
+        </aside>
+                
+        <header>
+            <button class="w3-button w3-black w3-left w3-xlarge" onclick="w3_open()">☰</button>
+            <h1><b>TITRE</b></h1>
+            <script>
+                    function w3_open() {
+                        document.getElementById("mySidebar").style.display = "block";
+                    }
+                    
+                    function w3_close() {
+                        document.getElementById("mySidebar").style.display = "none";
+                    }
+            </script>
+        </header>
+        <article>
+            
+             <!-- Ecrire l'article ici -->
+        </article>
+    </body>
+</html>
