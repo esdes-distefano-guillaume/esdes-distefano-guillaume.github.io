@@ -35,3 +35,9 @@ carouselle{
 #myButton {
     transition: transform 1s;
 }
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
