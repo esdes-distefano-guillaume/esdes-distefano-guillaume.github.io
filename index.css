@@ -1,0 +1,340 @@
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-image:url(images/Back.png);
+    padding-top:75px;
+}
+header container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+    padding-top: 25px;
+}
+.contactmoi{
+    margin-top:50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;   
+}
+.info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(29, 29, 29);
+}
+.age{
+    display: flex;
+}
+.identite{
+    display: flex;
+}
+.voiture{
+    display: flex;
+}
+.carrousel{
+    background-color: rgb(182, 182, 182);
+}
+.bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;    
+}
+.cv{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(117, 117, 117);
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 70px;
+}
+.cv experience{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.cv formation{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.cv .inf{
+    display: flex;
+    flex-direction: column;
+}
+.cv .form-contain{
+    display: flex;
+    flex-direction: column;
+    
+}
+.cv .contain{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.cv h1{
+    margin-left:50px;
+    margin-right:50px;
+    font-size:200%
+}
+.cv h5{
+    margin-bottom: 50px;
+}
+.titre{  
+    display: flex;
+    flex-direction: row;
+}
+.section h1{
+    margin-left:50px;
+    font-size:200%
+}
+.logiciels .titre{
+    background-color: rgb(66, 66, 66);
+    display: flex;
+    flex-direction: row;
+    padding-left: 70px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 70px;
+}
+.logiciels .log-contain{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(66, 66, 66);
+    padding-left: 100px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.logiciels .log-contain .log-contain-column{
+    display: flex;
+    flex-direction: column;
+}
+.logiciels .log-contain .log-contain-column .row{
+    display: flex;
+    flex-direction: row;
+}
+.logiciels .log-contain p{
+    margin-left:50px;
+}
+.langues .titre{
+    background-color: rgb(117, 117, 117);
+    display: flex;
+    flex-direction: row;
+    padding-left: 70px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 70px;
+}
+.langues .lan{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(117, 117, 117);
+    padding-bottom: 25px;
+}
+.langues .lan-contain{
+    background-color: rgb(117, 117, 117);
+    display: flex;
+    flex-direction: column;
+    padding-left: 70px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 70px;
+}
+.langues .lan-contain .lan-contain-cult{
+    display: flex;
+    flex-direction:row;
+    padding-top: 25px;
+}
+.langues .lan-contain .lan-contain-prog{
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    flex-direction:column;
+}
+.langues .lan-contain .lan-contain-prog p{
+    margin-left:20px;
+}
+.langues .lan-contain .lan-contain-prog-1{
+    display: flex;
+    flex-direction:row;
+    margin-right:100px;
+    padding-top:10px;
+}
+.rs .titre{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    padding-left: 70px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 70px;
+}
+.rs .rs-contain{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 70px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 70px;
+}
+.rs .rs-contain .rs-contain-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.rs .rs-image{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 25px;
+}
+.passions .titre{
+    background-color: rgb(117, 117, 117);
+    display: flex;
+    flex-direction: row;
+    padding-left: 70px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 70px;
+}
+.passions .pas-contain{
+    background-color: rgb(117, 117, 117);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 70px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 70px;
+}
+.passions .pas-contain .pas-contain-1{
+    background-color: rgb(117, 117, 117);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.avis .titre{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    padding-left: 70px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 70px;
+}
+.avis h5{
+    margin-left:10px;
+}
+.avis p{
+    margin-left:10px;
+}
+.avis .avi-contain{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    padding-left: 70px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 70px;
+}
+.avis .avi-contain .avi-contain-1{
+    display: flex;
+    flex-direction: row;
+}
+.avis .avi-contain .avi-contain-1-image{
+    display: flex;
+    flex-direction: row;
+}
+.avis .avi-contain .avi-contain-1-identification{
+    display: flex;
+    flex-direction: column;
+}
+.avis .avi-contain .avi-contain-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.avis .avi-contain .avi-contain-2-image{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.avis .avi-contain .avi-contain-2-identification{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.realisation .titre{
+    background-color: rgb(117, 117, 117);
+    display: flex;
+    flex-direction: row;
+    padding-left: 70px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 70px;
+}
+.realisation .rea{
+    display: flex;
+    flex-direction: column;
+}
+.realisation .rea-contain{
+    background-color: rgb(117, 117, 117);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 70px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 70px;
+}
+.realisation .rea-contain .rea-contain-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.realisation .rea-contain-2{
+    background-color: rgb(48, 48, 48);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 70px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 70px;
+}
+.realisation .rea-contain .rea-contain-description{
+    display: flex;
+    flex-direction: row;
+}
+.contact .titre{
+    background-color: rgb(48, 48, 48);
+    padding-left: 70px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 70px;
+    display: flex;
+    justify-content: center;
+
+}
+.contact .con-contain{
+    background-color: rgb(48, 48, 48);
+    display: flex;
+    flex-direction: column;
+    padding-left: 70px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 70px;
+}
+footer{
+    background-color: rgb(32, 32, 32);
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+#bar{
+    margin-top:10px;
+    margin-left:25px;
+    margin-right:75px;
+}
