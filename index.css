@@ -100,6 +100,7 @@ header container{
 .logiciels .log-contain{
     display: flex;
     flex-direction: row;
+    justify-content: center;
     background-color: rgb(66, 66, 66);
     padding-left: 100px;
     padding-top: 25px;
@@ -108,10 +109,12 @@ header container{
 .logiciels .log-contain .log-contain-column{
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 .logiciels .log-contain .log-contain-column .row{
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 .logiciels .log-contain p{
     margin-left:50px;
@@ -309,6 +312,9 @@ header container{
     display: flex;
     flex-direction: row;
 }
+.realisation img{
+    margin-left:15px;
+}
 .contact .titre{
     background-color: rgb(48, 48, 48);
     padding-left: 70px;
@@ -322,10 +328,10 @@ header container{
 .contact .con-contain{
     background-color: rgb(48, 48, 48);
     display: flex;
-    flex-direction: column;
-    padding-left: 70px;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    flex-direction: row;
+    padding-left: 500px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     padding-right: 70px;
 }
 footer{
