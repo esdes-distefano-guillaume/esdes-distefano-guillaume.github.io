@@ -5,17 +5,26 @@ header{
     background-image:url(images/Back.png);
     padding-top:75px;
 }
-header container{
-    display: flex;
-    flex-direction: column;
-    margin-left: 200px;
-    padding-top: 25px;
-}
-.contactmoi{
+header button{
     margin-top:50px;
+    margin-left: 200px;
     display: flex;
-    flex-direction: row;
-    justify-content: center;   
+    flex-direction: row;  
+}
+@font-face {
+	font-family: "Ananda font";
+	src: url('font/Ananda-Personal-Use.ttf');
+}
+header .container h1{
+    font-family: "Ananda font", sans-serif;
+    margin-top:50px;
+    margin-bottom:45px;
+}
+header .container h5{
+    font-family: "Ananda font", sans-serif;
+}
+h2{
+    font-family: "Ananda font", sans-serif;   
 }
 .info{
     display: flex;
@@ -72,7 +81,7 @@ header container{
     flex-direction: row;
     justify-content: center;
 }
-.cv h1{
+.cv h2{
     margin-left:50px;
     margin-right:50px;
     font-size:200%
@@ -97,6 +106,9 @@ header container{
     padding-bottom: 25px;
     padding-right: 70px;
 }
+.logiciels h2{
+    margin-left:50px;
+}
 .logiciels .log-contain{
     display: flex;
     flex-direction: row;
@@ -105,6 +117,7 @@ header container{
     padding-left: 100px;
     padding-top: 25px;
     padding-bottom: 25px;
+    
 }
 .logiciels .log-contain .log-contain-column{
     display: flex;
@@ -115,9 +128,11 @@ header container{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin-top: 30px;
 }
 .logiciels .log-contain p{
-    margin-left:50px;
+    margin-left:20px;
+ 
 }
 .langues .titre{
     background-color: rgb(117, 117, 117);
@@ -127,6 +142,9 @@ header container{
     padding-top: 25px;
     padding-bottom: 25px;
     padding-right: 70px;
+}
+.langues h2{
+    margin-left:50px;
 }
 .langues .lan{
     display: flex;
@@ -173,6 +191,9 @@ header container{
     padding-bottom: 25px;
     padding-right: 70px;
 }
+.rs h2{
+    margin-left:50px;
+}
 .rs .rs-contain{
     background-color: rgb(255, 255, 255);
     display: flex;
@@ -188,6 +209,9 @@ header container{
     flex-direction: column;
     justify-content: space-around;
 }
+.rs .rs-contain .rs-contain-1 img{
+    margin-left:50px;
+}
 .rs .rs-image{
     display: flex;
     flex-direction: row;
@@ -195,7 +219,7 @@ header container{
     padding-bottom: 25px;
 }
 .passions .titre{
-    background-color: rgb(117, 117, 117);
+    background-color: rgb(255, 255, 255);
     display: flex;
     flex-direction: row;
     padding-left: 70px;
@@ -203,8 +227,11 @@ header container{
     padding-bottom: 25px;
     padding-right: 70px;
 }
+.passions h2{
+    margin-left:50px;
+}
 .passions .pas-contain{
-    background-color: rgb(117, 117, 117);
+    background-color: rgb(255, 255, 255);
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -219,6 +246,13 @@ header container{
     flex-direction: column;
     justify-content: space-around;
 }
+.passions .pass-contain-1 .titre{
+    display: flex;
+    flex-direction: row;
+}
+.passions .pass-contain-1 .titre h5{
+    margin-top: 25px;
+}
 .avis .titre{
     background-color: white;
     display: flex;
@@ -228,8 +262,12 @@ header container{
     padding-bottom: 25px;
     padding-right: 70px;
 }
+.avis h2{
+    margin-left:50px;
+}
 .avis h5{
     margin-left:10px;
+    margin-top:25px;
 }
 .avis p{
     margin-left:10px;
@@ -274,10 +312,12 @@ header container{
     background-color: rgb(117, 117, 117);
     display: flex;
     flex-direction: row;
-    padding-left: 70px;
     padding-top: 25px;
     padding-bottom: 25px;
     padding-right: 70px;
+}
+.realisation h2{
+    margin-left:50px;
 }
 .realisation .rea{
     display: flex;
@@ -299,7 +339,7 @@ header container{
     justify-content: space-around;
 }
 .realisation .rea-contain-2{
-    background-color: rgb(48, 48, 48);
+    background-color: rgb(196, 196, 196);
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -313,7 +353,7 @@ header container{
     flex-direction: row;
 }
 .realisation img{
-    margin-left:15px;
+    margin-left:75px;
 }
 .contact .titre{
     background-color: rgb(48, 48, 48);
@@ -331,8 +371,11 @@ header container{
     flex-direction: row;
     padding-left: 500px;
     padding-top: 5px;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
     padding-right: 70px;
+}
+.contact p{
+    margin-left:100px;
 }
 footer{
     background-color: rgb(32, 32, 32);
