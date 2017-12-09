@@ -1,3 +1,7 @@
+@font-face {
+	font-family: "Ananda font";
+	src: url('font/Ananda-Personal-Use.ttf');
+}
 header{
     display: flex;
     flex-direction: row;
@@ -10,10 +14,6 @@ header button{
     margin-left: 200px;
     display: flex;
     flex-direction: row;  
-}
-@font-face {
-	font-family: "Ananda font";
-	src: url('font/Ananda-Personal-Use.ttf');
 }
 header .container h1{
     font-family: "Ananda font", sans-serif;
@@ -41,8 +41,26 @@ h2{
 .voiture{
     display: flex;
 }
-.carrousel{
-    background-color: rgb(182, 182, 182);
+.carousel .slide .log-row{
+    display: flex;
+    flex-direction: row;
+    margin-top:10px;
+    margin-right:50px;
+}
+.carousel .paragraphe{
+    margin-top:50px;
+    margin-bottom:50px;
+}
+.carousel h1{
+    font-family: "Ananda font", sans-serif;
+    margin-right:100px;
+}
+.carousel button{
+    margin-top:50px;
+}
+.button-slider{
+    margin-left:400px;
+    margin-bottom:50px;
 }
 .bar{
     display: flex;
