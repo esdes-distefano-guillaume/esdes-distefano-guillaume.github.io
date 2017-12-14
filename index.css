@@ -1,3 +1,5 @@
+<!Doctype html>{
+}
 @font-face {
 	font-family: "Ananda font";
 	src: url('font/Ananda-Personal-Use.ttf');
@@ -9,18 +11,18 @@ header{
     background-image:url(images/Back.png);
     padding-top:75px;
 }
-header button{
+header a{
     margin-top:50px;
-    margin-left: 200px;
+    margin-left:200px;
     display: flex;
     flex-direction: row;  
 }
-header .container h1{
+header .contain h1{
     font-family: "Ananda font", sans-serif;
     margin-top:50px;
     margin-bottom:45px;
 }
-header .container h5{
+header .contain h5{
     font-family: "Ananda font", sans-serif;
 }
 h2{
@@ -55,11 +57,11 @@ h2{
     font-family: "Ananda font", sans-serif;
     margin-right:100px;
 }
-.carousel button{
+.carousel a{
     margin-top:50px;
 }
 .button-slider{
-    margin-left:400px;
+    margin-left:150px;
     margin-bottom:50px;
 }
 .bar{
@@ -420,7 +422,7 @@ footer{
     padding-bottom: 10px;
     padding-top: 10px;
 }
-#bar{
+.barre{
     margin-top:10px;
     margin-left:25px;
     margin-right:75px;
