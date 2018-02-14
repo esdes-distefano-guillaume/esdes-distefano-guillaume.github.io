@@ -1,0 +1,115 @@
+html{
+    height: 100%;
+}
+body{
+    margin: 0px;
+    height: 100%;
+}
+header{
+    background-image: url("img/maxresdefault.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 0px;
+}
+h1{
+    font-family: Ananda;
+    color: rgb(255, 255, 255);
+    text-shadow: 4px 4px rgba(41, 41, 41, 0.7);
+    font-size: 75px;
+    text-align: center;
+    letter-spacing: 5px;
+    background-color: rgba(58, 58, 58, 0.3);
+    border: solid 2px white;
+    padding: 25px;    
+    transition: letter-spacing 1s ease-in-out
+}
+@font-face{
+    font-family: Ananda;    
+    src: url(font/Ananda-Personal-Use.ttf);
+}
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+h1:hover{
+    letter-spacing: 15px;
+}
+section{
+    min-height : 100%;
+    background-color: #221123;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: center;
+    flex-wrap: wrap;
+}
+article{
+    position: relative;
+    padding: 15px;
+    width: 20%;
+    box-shadow: 5px 5px 5px #140a14dc;
+    margin: 20px;
+    background-image: url("img/Background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: grayscale(0);
+    overflow: hidden;
+    transition: filter 1s ease-in-out
+
+}
+.bg-img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
+
+#fox{     background-image: url("img/fox.png");}
+#Cerfvolant{     background-image: url("img/Cerf.png");}
+#Castor{     background-image: url("img/Castor.png");}
+#Panda{     background-image: url("img/Panda.png");}
+#Tigre{     background-image: url("img/Tigre.png");}
+
+article:hover .bg-img{
+    filter: grayscale(0.5);
+    transform: translate(50px, 0px);
+
+}
+h2{
+    color: rgb(31, 31, 31);
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    
+}
+p{
+    color: rgb(59, 59, 59);
+    font-family: 'Roboto', sans-serif;
+}
+
+/* For Mobiles Only*/
+@media only screen and (max-width: 600px) {
+    article{
+        width: 80%;
+    }
+}
+/* For Tablet Only */
+@media only screen and (max-width: 768px) and (min-width: 900px){
+    article{
+        width: 40%;
+    }
+}
+
+/* For Dekstop Only */
+@media only screen and (min-width: 900px){
+
+}
