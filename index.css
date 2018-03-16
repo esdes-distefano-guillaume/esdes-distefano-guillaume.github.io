@@ -5,6 +5,14 @@ body{
     margin: 0px;
     height: 100%;
 }
+#movie{
+    width: 40%;
+    background-color: white;
+    padding: 10px;
+    margin: 40px;
+}
+
+
 header{
     background-image: url("img/maxresdefault.jpg");
     background-repeat: no-repeat;
@@ -17,6 +25,7 @@ header{
     height: 100%;
     margin: 0px;
 }
+
 h1{
     font-family: Ananda;
     color: rgb(255, 255, 255);
@@ -24,9 +33,7 @@ h1{
     font-size: 75px;
     text-align: center;
     letter-spacing: 5px;
-    background-color: rgba(58, 58, 58, 0.3);
-    border: solid 2px white;
-    padding: 25px;    
+    opacity: 0;    
     transition: letter-spacing 1s ease-in-out
 }
 @font-face{
@@ -38,6 +45,38 @@ h1{
 h1:hover{
     letter-spacing: 15px;
 }
+
+#movie{
+    padding: 12px;
+    box-shadow: 10px 10px 10px rgba(15, 15, 15, 0.493);
+    border-radius: 12px;
+}
+
+button{
+    padding: 12px;
+    padding-left: 50px;
+    padding-right: 50px;
+    box-shadow: 10px 10px 10px rgba(15, 15, 15, 0.493);
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    border-radius: 20px;
+}
+
+button:hover{
+    background-color: rgb(196, 23, 23);
+    border-color:rgb(196, 23, 23);    
+}
+
+.toast {
+    position: fixed;
+    bottom: 0;
+    margin: auto;
+    color: white;
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.74);
+    padding: 15px;
+}
+
 section{
     min-height : 100%;
     background-color: #221123;
@@ -100,6 +139,9 @@ p{
 @media only screen and (max-width: 600px) {
     article{
         width: 80%;
+    }
+    #movie{
+        width:80%;
     }
 }
 /* For Tablet Only */
