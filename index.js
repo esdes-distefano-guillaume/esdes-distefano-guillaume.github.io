@@ -4,7 +4,7 @@ console.log(document.getElementById('movie').value);
 
 var cssSelector = anime({
     targets: '.titre',
-    translateY: 10,
+    translateY: 50,
     opacity: 1,
     delay: 750
 });
