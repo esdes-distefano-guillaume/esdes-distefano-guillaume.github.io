@@ -28,8 +28,8 @@ Mon générateur cible principalement :
 
 ```
 Hésite actuellement sur le business plan du site : 
-* Contenu gratuit avec publicité
-* Contenu payant mais plus précis (Idées de logos, noms)
+- Contenu gratuit avec publicité
+- Contenu payant mais plus précis (Idées de logos, noms)
 ```
 
 Les utilisateurs auront la possibilité de configurer le générateurs selon plusieurs critères.
