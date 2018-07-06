@@ -4,49 +4,29 @@ Ce site web comprend un générateur d'idées permettant de répondre au besoin 
 L'objectif de ce site est donc de donner une visibilité sur des concepts possibles.
 
 
-## Présentation de mon profil
+## Contenu de mon site
 
-* Création de projet web
-* Actions marketing
-* Actions evenementielles
-* Actions commerciales
-
-
-## Présentation des projets
-
-Mon générateur cible principalement :
-* Les entrepreneurs
-* Les start up
-* Les Freelance ou indépendant
-
-
-## Présentation des designs
-
-* La page d'accueil -> Comprend le générateur.
-* Proposition d'idées -> Permet de faire vivre le site.
-* A propos -> Faire comprendre le concept aux visiteurs.
-
-
-## Présentation marketing
-
-* La page d'accueil -> Comprend le générateur.
-* Proposition d'idées -> Permet de faire vivre le site.
-* A propos -> Faire comprendre le concept aux visiteurs.
+* Mon CV
+* Présentation de mes projets
+* Présentation de mes designs
+* Présentation marketing
 
 ```
-Hésite actuellement sur le business plan du site : 
-- Contenu gratuit avec publicité
-- Contenu payant mais plus précis (Idées de logos, noms)
+Ajout des logiciels que j'utilise
 ```
 
-Les utilisateurs auront la possibilité de configurer le générateurs selon plusieurs critères.
-L'objectif est de convenir au mieu au besoin des utilisateurs.
+## Design du site
 
-![Index.html](https://image.noelshack.com/fichiers/2018/16/3/1524047779-diapositive1.png)
-> La page d'accueil avec le générateur.
+# Effet parralax
 
-![contact](https://image.noelshack.com/fichiers/2018/16/3/1524047782-diapositive2.png)
-> Page permettant d'apporter des idées.
+![BackGround](https://image.noelshack.com/fichiers/2018/27/5/1530880482-bg-1.png)
+> Calque 1
 
-![about](https://image.noelshack.com/fichiers/2018/16/3/1524047784-diapositive3.png)
-> A propos.
+![BackGround2](https://image.noelshack.com/fichiers/2018/27/5/1530880486-bg-5.png)
+> Calque 2
+
+![BackGround3](https://image.noelshack.com/fichiers/2018/27/5/1530880492-bg-4.png)
+> Calque 3
+
+![BackGround4](https://image.noelshack.com/fichiers/2018/27/5/1530880495-bg-2.png)
+> Calque 4
