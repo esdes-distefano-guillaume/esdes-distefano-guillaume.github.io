@@ -15,9 +15,9 @@ L'objectif de ce site est donc de donner une visibilité sur des concepts possib
 Ajout des logiciels que j'utilise
 ```
 
-## Design du site
+# Design du site
 
-# Effet parralax
+## Effet parralax
 
 ![BackGround](https://image.noelshack.com/fichiers/2018/27/5/1530880482-bg-1.png)
 > Calque 1
