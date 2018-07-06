@@ -1,10 +1,10 @@
-# Générateur d'idées
+# La tete dans les étoiles
 
 Ce site web comprend un générateur d'idées permettant de répondre au besoin des personnes en quête de création de projets ou de concept.
 L'objectif de ce site est donc de donner une visibilité sur des concepts possibles.
 
 
-## Les idées
+## Présentation de mon profil
 
 * Création de projet web
 * Actions marketing
@@ -12,7 +12,7 @@ L'objectif de ce site est donc de donner une visibilité sur des concepts possib
 * Actions commerciales
 
 
-## Les cibles:
+## Présentation des projets
 
 Mon générateur cible principalement :
 * Les entrepreneurs
@@ -20,7 +20,14 @@ Mon générateur cible principalement :
 * Les Freelance ou indépendant
 
 
-## Les différentes pages :
+## Présentation des designs
+
+* La page d'accueil -> Comprend le générateur.
+* Proposition d'idées -> Permet de faire vivre le site.
+* A propos -> Faire comprendre le concept aux visiteurs.
+
+
+## Présentation marketing
 
 * La page d'accueil -> Comprend le générateur.
 * Proposition d'idées -> Permet de faire vivre le site.
