@@ -38,7 +38,7 @@ button {
 .menuList a:hover {
   color: #3daef0;
   font-size: 50px;
-  text-shadow: 0px 0px 50px #b1f6ffe0;
+  text-shadow: 0 0 50px #b1f6ffe0;
 }
 
 .menu{
@@ -250,8 +250,6 @@ a {
 .button:hover {
 	color: rgb(0,0,0);
   box-shadow: rgb(255, 255, 255) 0 0px 0px 40px inset;
-  margin-right: 25px;
-  margin-left: 25px;
 }
 footer{
   z-index: 9;
