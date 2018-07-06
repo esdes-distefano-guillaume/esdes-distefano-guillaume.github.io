@@ -1,7 +1,6 @@
-# La tete dans les étoiles
+# Thomas pesquet, le retour
 
-Ce site web comprend un générateur d'idées permettant de répondre au besoin des personnes en quête de création de projets ou de concept.
-L'objectif de ce site est donc de donner une visibilité sur des concepts possibles.
+L'histoire d'un spationaute, perdu dans l'espace à la recherche d'une alternance dans le domaine du marketing digital si jamais françois tu as des pistes, je suis preneur :)
 
 
 ## Contenu de mon site
