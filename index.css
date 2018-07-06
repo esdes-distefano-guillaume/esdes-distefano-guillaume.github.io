@@ -1,3 +1,76 @@
+@import url(https://fonts.googleapis.com/css?family=Material+Icons|Roboto:400,700);
+
+/*MENU*/
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  position: fixed;
+  font-size: 40px;
+  width: 300px;
+  top: 10%;
+  right: 80%;
+  z-index: 100;
+  background: rgba(0, 0, 0, 0);
+  border-color: rgba(0, 0, 0, 0);
+  color: white;
+}
+
+.menuList {
+  margin: 0 auto;
+  transform: translateY(50%);
+}
+
+.menuList a {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-family: SulphurPoint;
+  text-align:center;
+}
+
+.menuList a:hover {
+  color: #3daef0;
+  font-size: 50px;
+  text-shadow: 0px 0px 50px #b1f6ffe0;
+}
+
+.menu{
+  background-color: rgba(49, 49, 49, 0.9);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 0%;
+  opacity: 1;
+  transition: 1s all ease-out;
+}
+
+.menu li {
+  font-size: 2rem;
+  line-height: 3rem;
+  padding-left: 30px;
+}
+
+.menu.closed {
+  display: none;
+}
+
+.menu.open {
+  display: block;
+  opacity: 1;
+  width: 100%;
+  height: 100%;
+}
+
+/*CORP*/
+
 body {
     background: #4c4c4c;
     margin: 0;
@@ -68,13 +141,13 @@ body {
 }
 
   .layer-5 {
-    top:82%; 
+    top:5%; 
     z-index: 5;
     background-image: url(img/BG_3.png);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: 100;
+    background-size: 100%;
   }
   .layer-6 { 
     top:5%; 
@@ -104,6 +177,12 @@ body {
     color: white;
     text-shadow: 0px 0px 50px rgba(255, 255, 255, 0.87);
     font-family: soloist;
+    animation: titre 3s;
+}
+
+@keyframes titre{
+  from   {top: 850px;}
+  to     {top: 90px;}
 }
 
   .content {
@@ -139,16 +218,11 @@ body {
 
 
 .calltoaction {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
   z-index: 8;
 	position: fixed;
 	top: 60%;
-	left: 47%;
-	margin-top: -86px;
-	margin-left: -89px;
-  text-align: center;
+	left: 45%;
+	margin-top: -90px;
 }
 
 a {
@@ -165,7 +239,7 @@ a {
 	padding: 20px 30px;
 }
 
-a.button {
+.button {
 	color: rgb(255, 255, 255);
   box-shadow: rgb(255, 255, 255) 0 0px 0px 2px inset;
   font-family: SulphurPoint;
@@ -173,14 +247,14 @@ a.button {
   margin-left: 25px;
 }
 
-a.button:hover {
+.button:hover {
 	color: rgb(0,0,0);
   box-shadow: rgb(255, 255, 255) 0 0px 0px 40px inset;
   margin-right: 25px;
   margin-left: 25px;
 }
 footer{
-  z-index: 10;
+  z-index: 9;
   text-align: center;
   margin-left: 90px;
   position:absolute;
@@ -206,37 +280,42 @@ footer{
 @media only screen and (max-width: 600px) {
   .Titre { 
     z-index: 6;
-    top:10%;
+    top:10px;
     font-size: 25px;  
     color: white;
     text-shadow: 0px 0px 40px rgba(255, 255, 255, 0.87);
   }
+
+  @keyframes titre{
+    from   {top: 500px;}
+    to     {top: 10px;}
+  }
   
   .calltoaction {
-    top: 45%;
-    left: 40%;
+    top: 275px;
+    left: 35%;
   }
 
   .layer-2 {
-    top:-200px; 
+    top:-350px; 
   }
 
   .layer-5 {
-    top: 450px; 
+    top: -375px; 
   }
 
   .layer-6 {
-    top: -200px; 
+    top: -375px; 
   }
 
   .layer-top {
-    top: -200px; 
+    top: -375px; 
   }
 
   .content {
-    top: 70vh;
+    top: 400px;
     width: 100%;
-    min-height: 100%;
+    min-height: 1000px;
     z-index: 8;
   }
   .content h3{
@@ -246,19 +325,70 @@ footer{
     font-size: 12px;
   }
   footer{
+    top: 380px;
     margin-left: 0px;
-    margin-bottom: 150px;
-    }
-  header{
-    position:relative;
   }
+  .menuOpen{
+    top: 88%;
+    left: 325px;
+    width: 75px;
+  } 
 }
 /* For Tablet Only */
-@media only screen and (max-width: 768px) and (min-width: 900px){
+@media only screen and (max-width: 1200px) and (min-width: 600px){
+  .Titre { 
+    z-index: 6;
+    top:100px;
+    font-size: 35px;  
+    color: white;
+    text-shadow: 0px 0px 40px rgba(255, 255, 255, 0.87);
+  }
 
-}
+  @keyframes titre{
+    from   {top: 300px;}
+    to     {top: 100px;}
+  }
+  
+  .calltoaction {
+    top: 400px;
+    left: 44%;
+  }
 
-/* For Dekstop Only */
-@media only screen and (min-width: 900px){
+  .layer-2 {
+    top:-150px; 
+  }
 
+  .layer-5 {
+    top: -150px; 
+  }
+
+  .layer-6 {
+    top: -150px; 
+  }
+
+  .layer-top {
+    top: -150px; 
+  }
+
+  .content {
+    top: 600px;
+    width: 100%;
+    min-height: 1000px;
+    z-index: 8;
+  }
+  .content h3{
+    margin-top: 75px;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 12px;
+  }
+  footer{
+    top: 600px;
+    margin-left: 0px;
+  }
+
+  .menuOpen{
+    top: 10px;
+    width: 75px;
+  } 
 }

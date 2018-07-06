@@ -62,5 +62,5 @@ ParallaxManager = (function() {
   return ParallaxManager;
  
 })();
- 
+
 new ParallaxManager('.parallax-layer');
